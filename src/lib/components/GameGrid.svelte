@@ -168,8 +168,8 @@ shuffle();
       }}>
         <img src={card_data[card.id].imgUrl} alt="">
       </button>
-      <span style="position:absolute">{card.id}</span>
-      <span style="position:absolute; bottom:0;">{card.matched}</span>
+      <!-- <span style="position:absolute">{card.id}</span> -->
+      <!-- <span style="position:absolute; bottom:0;">{card.matched}</span> -->
     </li> 
   {/each}
 </ul>
