@@ -11,43 +11,43 @@
   const card_data = [
   {
     id: 0,
-    name: "html",
-    imgUrl: "images/html.png",
+    name: "00",
+    imgUrl: "images/00.png",
   },
   {
     id: 1,
-    name: "css",
-    imgUrl: "images/css.png",
+    name: "01",
+    imgUrl: "images/01.png",
   },
   {
     id: 2,
-    name: "js",
-    imgUrl: "images/js.png",
+    name: "02",
+    imgUrl: "images/02.png",
   },
   {
     id: 3,
-    name: "react",
-    imgUrl: "images/react.png",
+    name: "03",
+    imgUrl: "images/03.png",
   },
   {
     id: 4,
-    name: "vue",
-    imgUrl: "images/vue.png",
+    name: "04",
+    imgUrl: "images/04.png",
   },
   {
     id: 5,
-    name: "svelte",
-    imgUrl: "images/svelte.png",
+    name: "05",
+    imgUrl: "images/05.png",
   },
   {
     id: 6,
-    name: "sass",
-    imgUrl: "images/sass.png",
+    name: "06",
+    imgUrl: "images/06.png",
   },
   {
     id: 7,
-    name: "github",
-    imgUrl: "images/github.png",
+    name: "07",
+    imgUrl: "images/07.png",
   },
   {
     id: 8,
@@ -199,8 +199,8 @@ shuffle();
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, 1fr);
     list-style-type: none;
-    grid-gap: 2%;
-    padding: 20px;
+    grid-gap: 5%;
+    padding: 10px;
 
     button {
      background: transparent;
@@ -211,8 +211,8 @@ shuffle();
       position: relative;
       background: #fff;
       aspect-ratio: 1 / 1;
-      padding: 20%;
-      border-radius: 18%;
+      padding: 5%;
+      border-radius: 8%;
       img {
         width: 100%;
         object-fit: contain;
